@@ -1,0 +1,42 @@
+<!-- Ques Create a simple webpage with a card similar to question number 2. The card must be semi-transparent as default and on hovering the card must be displayed clearly. Use CSS opacity to achieve this output. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ques 2 Card Hover</title>
+</head>
+<style>
+    img{
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    div{
+        background-color: #36ccce;
+        margin: 0 auto;
+        width: 500px;
+        border-radius: 25px;
+        padding: 20px;
+        padding-bottom: 5px;
+    }
+    h3{
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    div{
+        opacity: 50%;
+    }
+    div:hover{
+        opacity: 100%;
+        transition: 0.4s;
+    }
+</style>
+<body>
+    <div>
+        <img src="image5.jpg" alt="Panda Wallpaper">
+        <h3>Panda Wallpaper</h3>
+    </div>
+</body>
+</html>
